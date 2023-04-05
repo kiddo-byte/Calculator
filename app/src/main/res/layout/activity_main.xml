@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="SIMPLE CALCULATOR"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="Display"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/numberone"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="First number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/numbertwo"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Second number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnadd"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/btnmultiply"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="340dp"
+        android:text="MULTIPLY" />
+
+    <Button
+        android:id="@+id/btndvd"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:text="DIVIDE" />
+
+    <Button
+        android:id="@+id/btnsbt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="420dp"
+        android:text="SUBTRACT" />
+</RelativeLayout>
